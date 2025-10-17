@@ -29,6 +29,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: dotnet-app
-
+            name: publish
+            path: ./publish
+            
 
